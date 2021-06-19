@@ -1084,6 +1084,20 @@ p.lead-footer {
 form.lead label,
 form.lead input {
     font-size: 16px;
+    -moz-appearance: textfield;
+}
+
+form.lead input::-webkit-outer-spin-button,
+form.lead input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+form.lead input[type=number] {
+    -moz-appearance: textfield;
 }
 
 .panel-body {
