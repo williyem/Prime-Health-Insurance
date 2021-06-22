@@ -2008,6 +2008,10 @@ a.btn:focus {
 
 /* ==== partner ==== */
 
+.partner-row {
+    margin: 0 auto;
+}
+
 .partner {
     text-align: center;
 }
